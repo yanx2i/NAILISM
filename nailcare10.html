@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Welcome to Nailism</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!--ICON-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/11.magazineHome.css" rel="stylesheet" />
+        <link href="css/7.home.css" rel="stylesheet" />
+
+        <style>
+            /* Features */
+.features {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 0 2em -3em;
+  width: calc(100% + 3em); }
+  .features article {
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    margin: 0 0 3em 3em;
+    position: relative;
+    width: calc(50% - 3em); }
+    .features article:nth-child(2n - 1) {
+      margin-right: 1.5em; }
+    .features article:nth-child(2n) {
+      margin-left: 1.5em; }
+    .features article:nth-last-child(1), .features article:nth-last-child(2) {
+      margin-bottom: 0; }
+    .features article .icon {
+      -moz-flex-grow: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex-grow: 0;
+      flex-grow: 0;
+      -moz-flex-shrink: 0;
+      -webkit-flex-shrink: 0;
+      -ms-flex-shrink: 0;
+      flex-shrink: 0;
+      display: block;
+      height: 10em;
+      line-height: 10em;
+      margin: 0 2em 0 0;
+      text-align: center;
+      width: 10em; }
+      .features article .icon:before {
+        color: #f56a6a;
+        font-size: 2.75rem;
+        position: relative;
+        top: 0.05em; }
+      .features article .icon:after {
+        -moz-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        border-radius: 0.25rem;
+        border: solid 2px rgba(210, 215, 217, 0.75);
+        content: '';
+        display: block;
+        height: 7em;
+        left: 50%;
+        margin: -3.5em 0 0 -3.5em;
+        position: absolute;
+        top: 50%;
+        width: 7em; }
+    .features article .content {
+      -moz-flex-grow: 1;
+      -webkit-flex-grow: 1;
+      -ms-flex-grow: 1;
+      flex-grow: 1;
+      -moz-flex-shrink: 1;
+      -webkit-flex-shrink: 1;
+      -ms-flex-shrink: 1;
+      flex-shrink: 1;
+      width: 100%; }
+      .features article .content > :last-child {
+        margin-bottom: 0; }
+  @media screen and (max-width: 980px) {
+    .features {
+      margin: 0 0 2em 0;
+      width: 100%; }
+      .features article {
+        margin: 0 0 3em 0;
+        width: 100%; }
+        .features article:nth-child(2n - 1) {
+          margin-right: 0; }
+        .features article:nth-child(2n) {
+          margin-left: 0; }
+        .features article:nth-last-child(1), .features article:nth-last-child(2) {
+          margin-bottom: 3em; }
+        .features article:last-child {
+          margin-bottom: 0; }
+        .features article .icon {
+          height: 8em;
+          line-height: 8em;
+          width: 8em; }
+          .features article .icon:before {
+            font-size: 2.25rem; }
+          .features article .icon:after {
+            height: 6em;
+            margin: -3em 0 0 -3em;
+            width: 6em; } }
+  @media screen and (max-width: 480px) {
+    .features article {
+      -moz-flex-direction: column;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -moz-align-items: -moz-flex-start;
+      -webkit-align-items: -webkit-flex-start;
+      -ms-align-items: -ms-flex-start;
+      align-items: flex-start; }
+      .features article .icon {
+        height: 6em;
+        line-height: 6em;
+        margin: 0 0 1.5em 0;
+        width: 6em; }
+        .features article .icon:before {
+          font-size: 1.5rem; }
+        .features article .icon:after {
+          height: 4em;
+          margin: -2em 0 0 -2em;
+          width: 4em; } }
+  @media screen and (max-width: 480px) {
+    .features article .icon:before {
+      font-size: 1.25rem; } }
+
+
+      /* Icon */
+.icon {
+  text-decoration: none;
+  border-bottom: none;
+  position: relative; }
+  .icon:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    text-transform: none !important;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400; }
+  .icon > .label {
+    display: none; }
+  .icon:before {
+    line-height: inherit; }
+  .icon.solid:before {
+    font-weight: 900; }
+  .icon.brands:before {
+    font-family: 'Font Awesome 5 Brands'; }
+        </style>
+    </head>
+    <body id="page-top">
+     <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="mainpage.html">Nailism</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="magazineHome.html">MAGAZINE</a></li>
+                        <li class="nav-item"><a class="nav-link" href="design.html">DESIGN</a></li>
+                        <li class="nav-item"><a class="nav-link" href="nailcare10.html">NAIL CARE</a></li>
+                        <li class="nav-item"><a class="nav-link" href="shape.html">SHAPE</a></li>
+                        <li class="nav-item"><a class="nav-link" href="extension.html">LENGTH EXTENSION</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+   
+
+<!-- Main -->
+<section id="main" >
+    <div class="container">
+        <div class="col-12" >
+
+            <!-- Portfolio -->
+            <section>
+            </br></br>
+                <header class="major" style="display: flex; align-items: center; margin-bottom: 10px; margin-left: 10px;">
+                    <h1 class="display-3 fw-bold text-start" style="color: #C13844; margin: 0;">NAIL CARE</h1>
+                    <div style="width: 73%; height: 3px; background-color: #B66E74; margin: auto; "></div>
+                </header>
+
+        
+                    <div class="features" style="margin-top: 70px;">
+                        <article>
+                            <span class="icon solid fa-hand-sparkles"></span>
+                            <div class="content">
+                                <h3>큐티클 오일</h3>
+                                <p>큐티클 오일은 손톱과 큐티클(손톱 주변의 피부)을 건강하게 유지해주는 보습 제품입니다. 건조하고 갈라진 큐티클을 부드럽게 해주고, 손톱의 성장과 윤기를 도와줍니다.</p>
+                                <p>추천 제품: 닥터윈더 네일 에센스 포켓 펜 ver.2</p>
+                            </div>
+                        </article>
+                        <article>
+                            <span class="icon solid fa-brush"></span>
+                            <div class="content">
+                                <h3>손톱 영양제</h3>
+                                <p>손톱 영양제는 약하고 쉽게 갈라지거나 부러지는 손톱에 영양과 보습을 공급해 건강하고 탄탄한 손톱으로 가꿔주는 제품입니다.</p>
+                                <p>추천 제품:반디 네일큐어</p>
+                            </div>
+                        </article>
+                        <article>
+                            <span class="icon solid fa-cut"></span>
+                            <div class="content">
+                                <h3>큐티클 니퍼</h3>
+                                <p>큐티클 니퍼는 손톱 주변의 불필요한 큐티클이나 거스러미를 정리하는 도구입니다. 깔끔한 손톱 라인을 만들고 손톱 위생을 유지하는 데 도움을 줍니다.</p>
+                                <p>추천 제품: 쓰리세븐 고급 큐티클 니퍼 </p>
+                            </div>
+                        </article>
+                        <article>
+                            <span class="icon solid fa-magic"></span>
+                            <div class="content">
+                                <h3>네일 파일</h3>
+                                <p>네일 파일은 손톱 길이를 다듬거나 모양을 정리할 때 사용하는 도구입니다. 손톱깎이보다 손톱 끝을 부드럽게 마무리할 수 있어 손톱이 갈라지는 것을 방지해줍니다.</p>
+                                <p>추천 제품: 필리밀리 양면 네일 파일 </p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+   <!-- Footer-->
+   <footer class="bg-light py-5">
+    <div class="container px-4 px-lg-5 text-center">
+        <p class="small text-muted mb-2">@nailism24 All rights reserved.</p>
+        <p class="small text-muted mb-3">Made with 💅 for nail art beginners</p>
+        <div class="d-flex justify-content-center">
+            <a href="https://www.instagram.com/nailism24?igsh=MTVxaYQ5cGVkdXhnYQ==" class="mx-2 text-muted small">@nailism24</a>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- SimpleLightbox plugin JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+<!-- * *                               SB Forms JS                               * *-->
+<!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+</html>

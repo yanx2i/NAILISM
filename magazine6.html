@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Welcome to Nailism</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/7.home.css" rel="stylesheet" />
+
+        <style>
+           /* 배너 전체 설정 */
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 4rem 2rem;
+  padding: 5rem 2rem;
+  background-color: #f5f5f5;
+}
+
+/* 배너 안의 텍스트 내용 */
+/* 기본 스타일 공통 */
+.banner .content {
+  max-width: 600px;
+  padding: 2rem;
+}
+
+/* 왼쪽 정렬 */
+.banner .content.align-left {
+  text-align: left;
+  margin-right: auto;
+}
+
+.banner .content.align-left .actions {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* 오른쪽 정렬 */
+.banner .content.align-right {
+  text-align: right;
+  margin-left: auto;
+}
+
+.banner .content.align-right .actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.banner .image.object {
+    flex: 1 1 25%;
+  margin-bottom: 1rem;
+  width: 35%; /* 원하는 비율로 조정: 30~50% 적당 */
+  max-width: 400px; /* 너무 커지지 않게 제한 */
+}
+
+.banner .image.object img {
+  width: 100%; /* 부모 박스 기준으로 꽉 채우기 */
+  height: auto; /* 비율 유지 */
+  border-radius: 8px; /* 모서리 살짝 둥글게 (원하면) */
+}
+
+
+/* 제목 스타일 */
+.banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #C13844;
+}
+.banner h2 {
+  font-size: 2.0rem !important;
+  margin-bottom: 1rem;
+ opacity: 0.8;
+}
+
+/* 부제목 스타일 */
+.banner p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #B66E74;
+}
+
+.banner p2 {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.6;
+    opacity: 0.8;
+}
+
+.banner p3 {
+  font-size: 1rem;
+  line-height: 1.6;
+    opacity: 0.8;
+}
+
+/* 버튼 스타일 */
+.banner .actions .button {
+  background-color: #C13844;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+/* 반응형 설정 */
+@media screen and (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .banner .image.object {
+    width: 80%;
+    margin-top: 1.5rem;
+  }
+}
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%), url(assets/MAGAZINE/june/bg.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+
+        </style>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="mainpage.html">Nailism</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="magazineHome.html">MAGAZINE</a></li>
+                        <li class="nav-item"><a class="nav-link" href="design.html">DESIGN</a></li>
+                        <li class="nav-item"><a class="nav-link" href="nailcare10.html">NAIL CARE</a></li>
+                        <li class="nav-item"><a class="nav-link" href="shape.html">SHAPE</a></li>
+                        <li class="nav-item"><a class="nav-link" href="extension.html">LENGTH EXTENSION</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <p class="text-white " style="font-size: 0.7rem; opacity: 0.6;">NAIL MAGAZINE </p>
+                        <p class="text-white" style="font-size: 2.3rem; opacity: 0.6; margin-top: -20px;">J U N E</p>
+                        <h1 class="text-white font-weight-bold">아직 도트 유행이자나</h1>
+                        <hr class="divider" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 mb-5">뜨거운 햇살과 함께 시작된 6월, 네일 아트도 한층 더 생기 있고 자유로워지고 있습니다.
+                            </br> 이번 달 네일 트렌드는 ‘내추럴한 표현력’과 ‘도트 패턴‘이 핵심 포인트! 
+                            </br>지금부터 6월을 반짝이게 해줄 네일 트렌드와 추천 컬러를 소개합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="banner" id="t1">
+
+            <div class="content align-right">
+                <header>
+                    <h1>TREND 01. 투명함 속 반짝임</h1>
+                    <h2>- 글레이즈드 & 시럽 </h2>
+                </header>
+                <p>시럽처럼 얇게 발리는 컬러 위에 투명한 젤로 마무리한 글레이즈드 네일은 여전히 대세입니다. 은은한 광택과 투명한 컬러감이 손끝을 청순하고 고급스럽게 연출해 주죠. 특히 무더운 여름엔 이런 가벼운 텍스처의 네일이 더욱 돋보입니다.</p>
+                <p2>추천 디자인</p2></br>
+                <p3> 누드 시럽 컬러 위에 펄 파우더를 살짝 얹은 글레이즈드 피니시</p3>
+            </div>
+
+            <span class="image object">
+                <img src="assets/MAGAZINE/june/글레이즈/nail_jisu/IMG_5932.jpeg" alt="" />
+            </span>
+            <span class="image object">
+                <img src="assets/MAGAZINE/june/글레이즈/nail_jisu/IMG_5933.jpeg" alt="" />
+            </span>
+        
+        </section>
+
+        <div style="width: 95%; height: 3px; background-color: #B66E74; margin: 0 auto;"></div>
+
+
+        <section class="banner" id="t2">
+
+             <span class="image object">
+                <img src="assets/MAGAZINE/june/도트/ava_nail___/IMG_5935.jpeg" alt="" />
+            </span>
+            <span class="image object">
+                <img src="assets/MAGAZINE/june/도트/ava_nail___/IMG_5937.jpeg" alt="" />
+            </span>
+
+            <div class="content align-left">
+                <header>
+                    <h1>TREND 02. 여전한 도트 유행</h1>
+                    <h2>- 도트 패턴 네일</h2>
+                </header>
+                <p>여전히 도트 패턴 유행이 이어지고 있어요! 아직 도트 패턴에 도전 못 해봤다면 지금이 타이밍! 도트 색으로 포인트를 주면 통통 튀는 매력이 배가 될 거에요. 다른 포인트를 더해 키치한 네일을 완성해보세요.</p>   
+                <p2>추천 디자인</p2></br>
+                <p3>흰 색 시럽 베이스에 도트 패턴과 별 포인트</p3>
+            </div>
+        
+        </section>
+
+        <div style="width: 95%; height: 3px; background-color: #B66E74; margin: 0 auto;"></div>
+
+        <section class="banner" id="t3">
+
+            <div class="content align-right">
+                <header>
+                    <h1>TREND 03. 손 끝 시원한 포인트</h1>
+                    <h2>- 프렌치 네일 </h2>
+                </header>
+                <p>원컬러 네일에 질려가는 중이라면 프렌치 네일로 포인트를 더해보세요! 손톱 끝에 작은 포인트가 귀여운 프렌치 네일 인기가 올라가고 있어요. 글리터 프렌치나 자석젤 프렌치로 더 화려하고 반짝이는 초여름을 보내보세요!</p>                <ul class="actions">
+                <p2>추천 디자인</p2></br>
+                <p3>자석젤 프렌치, 쨍한 컬러의 프렌치</p3>
+            </div>
+
+            <span class="image object">
+                <img src="assets/MAGAZINE/june/french/uni.salon/IMG_5938.jpeg" alt="" />
+            </span>
+            <span class="image object">
+                <img src="assets/MAGAZINE/june/french/yourday_nail/IMG_5939.jpeg" alt="" />
+            </span>
+        
+        </section>
+
+        <div style="width: 95%; height: 3px; background-color: #B66E74; margin: 0 auto;"></div>
+       
+        <!-- Footer-->
+        <footer class="bg-light py-5">
+            <div class="container px-4 px-lg-5 text-center">
+                <p class="small text-muted mb-2">&copy; 2025 Nailism. All rights reserved.</p>
+                <p class="small text-muted mb-3">Made with 💅 for nail art beginners</p>
+                <div class="d-flex justify-content-center">
+                    <a href="#t1" class="mx-2 text-muted small">Trend-01</a>
+                    <a href="#t2" class="mx-2 text-muted small">Trend-02</a>
+                    <a href="#t3" class="mx-2 text-muted small">Trend-03</a>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a href="https://www.instagram.com/nailism24?igsh=MTVxaTQ5cGVkdXhnYQ==" class="mx-2 text-muted small">@nailism24</a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>

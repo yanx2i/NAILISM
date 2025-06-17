@@ -1,0 +1,17 @@
+html, body, #page-top {
+  height: 100% !important;
+  background: #f9f7f6 !important;
+  background-image: none !important;
+}
+
+/* ✅ 하얗게 배경 덮는 요소들 전부 투명하게 */
+.container,
+section,
+.row,
+.col-4,
+.box,
+div[class*='col'],
+div[class*='container'],
+div[class*='row'] {
+  background: transparent !important;
+}
